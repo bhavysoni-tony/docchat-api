@@ -1,0 +1,23 @@
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+venv/
+.venv/
+*.egg-info/
+
+# Local data (Qdrant storage + metadata.json)
+data/qdrant_storage/
+data/metadata.json
+data/uploads/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
